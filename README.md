@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 EmojiConstants is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +18,22 @@ it, simply add the following line to your Podfile:
 pod "EmojiConstants"
 ```
 
+## Using Emoji's
+
+Import the EmojiConstants file: `import EmojiConstants`
+
+Then start using Emoji's!
+
+```swift
+var cryingString: String = Emoji.cryingFace
+var catFacce: String = Emoji.wearyCatFace
+```
+
+This was created using this [code generator](https://github.com/skyefreeman/EmojiBuilder) as part of a Sunday morning hack.  There are a few large ranges of emoji hexadecimal values that would crash when being parsed, pull requests welcome!
+
 ## Author
 
-Skye, skyefreeman@icloud.com
+Skye Freeman, skyefreeman@icloud.com
 
 ## License
 

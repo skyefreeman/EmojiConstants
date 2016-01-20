@@ -1,0 +1,25 @@
+{
+  "name": "EmojiConstants",
+  "version": "0.1.0",
+  "summary": "A short description of EmojiConstants.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EmojiConstants",
+  "license": "MIT",
+  "authors": {
+    "Skye": "skyefreeman@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EmojiConstants.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EmojiConstants": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

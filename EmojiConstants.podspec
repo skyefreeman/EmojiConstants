@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "EmojiConstants"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EmojiConstants."
+  s.summary          = "A list of Emoji's as Swift string constants"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Ever wish you could use an Emoji in your code, but didn't want to go through the hassle of looking it up in a unicode character table? Me neither.  But in case the situation arises there's EmojiConstants, an exhaustive list of Emoji's represented as string constants.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/EmojiConstants"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/skyefreeman/EmojiConstants"
   s.license          = 'MIT'
-  s.author           = { "Skye" => "skyefreeman@icloud.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/EmojiConstants.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Skye Freeman" => "skyefreeman@icloud.com" }
+  s.source           = { :git => "https://github.com/skyefreeman/EmojiConstants.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/ImSkyeFreeman'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -33,8 +33,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'EmojiConstants' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

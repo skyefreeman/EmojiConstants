@@ -1,12 +1,13 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
+link_with 'EmojiConstants_Example', 'EmojiConstants_Tests'
+
 target 'EmojiConstants_Example', :exclusive => true do
   pod "EmojiConstants", :path => "../"
 end
 
 target 'EmojiConstants_Tests', :exclusive => true do
   pod "EmojiConstants", :path => "../"
-
-  
 end
+

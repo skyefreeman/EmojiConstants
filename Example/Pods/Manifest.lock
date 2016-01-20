@@ -1,0 +1,14 @@
+PODS:
+  - EmojiConstants (0.1.0)
+
+DEPENDENCIES:
+  - EmojiConstants (from `../`)
+
+EXTERNAL SOURCES:
+  EmojiConstants:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EmojiConstants: 2498b3837b89e9cb71511388cd01b41581994eb9
+
+COCOAPODS: 0.39.0
