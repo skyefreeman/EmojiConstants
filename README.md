@@ -26,7 +26,7 @@ Then start using Emoji's!
 
 ```swift
 var cryingString: String = Emoji.cryingFace
-var catFacce: String = Emoji.wearyCatFace
+var catFace: String = Emoji.wearyCatFace
 ```
 
 This was created using this [code generator](https://github.com/skyefreeman/EmojiBuilder) as part of a Sunday morning hack.  There are a few large ranges of emoji hexadecimal values that would crash when being parsed, pull requests welcome!
