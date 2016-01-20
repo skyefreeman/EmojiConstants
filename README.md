@@ -28,7 +28,7 @@ var cryingString: String = Emoji.cryingFace
 var catFace: String = Emoji.wearyCatFace
 ```
 
-This was created using this [code generator](https://github.com/skyefreeman/EmojiBuilder) as part of a Sunday morning hack.  There are a few large ranges of emoji hexadecimal values that would crash when being parsed, pull requests welcome!
+This was created using this [code generator](https://github.com/skyefreeman/EmojiBuilder) as part of a Sunday morning hack.  There are a few large ranges of emoji hexadecimal values that would crash while being generated, so they have been omitted.
 
 ## Author
 
